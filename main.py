@@ -1,7 +1,7 @@
 import logging
 import logging.handlers
 import os
-
+import pytest
 import requests
 
 logger = logging.getLogger(__name__)
