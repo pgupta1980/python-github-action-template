@@ -4,6 +4,7 @@ import os
 import pytest
 import requests
 
+x = 1
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger_file_handler = logging.handlers.RotatingFileHandler(
